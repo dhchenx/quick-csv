@@ -36,12 +36,12 @@ setup(
     # For a discussion on single-sourcing the version across setup.py and the
     # project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
-    version='0.0.2',  # Required
+    version='0.0.4',  # Required
 
     # This is a one-line description or tagline of what your project does. This
     # corresponds to the "Summary" metadata field:
     # https://packaging.python.org/specifications/core-metadata/#summary
-    description='Quickly reading and writing CSV/TXT files',  # Optional
+    description='Read and write CSV or TXT files in a simple manner',  # Optional
 
     # This is an optional longer description of your project that represents
     # the body of text which users will see when they visit PyPI.
@@ -69,7 +69,7 @@ setup(
     #
     # This field corresponds to the "Home-Page" metadata field:
     # https://packaging.python.org/specifications/core-metadata/#home-page-optional
-    # url='https://github.com/dhchenx/biblio-laws',  # Optional
+    url='https://github.com/dhchenx/quick-csv',  # Optional
 
     # This should be your name or the name of the organization which owns the
     # project.
@@ -113,7 +113,7 @@ setup(
     # Note that this is a list of additional keywords, separated
     # by commas, to be used to assist searching for the distribution in a
     # larger catalog.
-    keywords="csv file, read csv, write csv, quick-csv, quickcsv",  # Optional
+    keywords="csv file, txt file, write, read, quick-csv, quickcsv",  # Optional
 
     # When your source code is in a subdirectory under the project root, e.g.
     # `src/`, it is necessary to specify the `package_dir` argument.
@@ -200,11 +200,10 @@ setup(
     # maintainers, and where to support the project financially. The key is
     # what's used to render the link text on PyPI.
 
-    #project_urls={  # Optional
-    #    'Bug Reports': 'https://github.com/dhchenx/quick-csv/issues',
-
-    #    'Source': 'https://github.com/dhchenx/quick-csv',
-    #},
+    project_urls={  # Optional
+        'Bug Reports': 'https://github.com/dhchenx/quick-csv/issues',
+        'Source': 'https://github.com/dhchenx/quick-csv',
+    },
 
 )
 
